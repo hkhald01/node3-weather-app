@@ -1,0 +1,22 @@
+<html>
+ <head>
+  <meta charset='UTF-8' />
+  <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta
+   http-equiv='Content-Security-Policy'
+   content="img-src 'self' data:; default-src 'self' http://localhost:3000"
+  />
+  <title>About</title>
+  <link rel="icon" type="image/png" href="/img/weather.png">
+  <link rel='stylesheet' href='/css/styles.css' type='text/css'>
+  <script src='/js/app.js'></script>
+ </head>
+ <body>
+     <div class="main-content"> 
+          {{>header}}
+            <img class="portrait" src='./img/me.png' alt='image that describes me' />
+    </div>
+    {{>footer}}
+ </body>
+</html>
