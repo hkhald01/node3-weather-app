@@ -16,8 +16,10 @@
   "express": "^4.16.4",
   "handlebars": "^4.7.7",
   "hbs": "^4.1.2",
-  "nodemon": "^2.0.13",
   "request": "^2.88.0",
   "socket.io": "^4.2.0"
+ },
+ "devDependencies": {
+    "nodemon": "^2.0.13"
  }
 }
